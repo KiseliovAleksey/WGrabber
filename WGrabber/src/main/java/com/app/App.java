@@ -69,6 +69,7 @@ public class App {
 								out.close();
 
 								int res = connection.getResponseCode();
+								System.out.println(res);
 
 								InputStream is = connection.getInputStream();
 								BufferedReader br = new BufferedReader(new InputStreamReader(is));
